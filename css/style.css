@@ -7,6 +7,13 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 /* !!!MENU/ADDRESS!!! */
 .link {
   text-decoration: none;
@@ -87,7 +94,7 @@ a.hover-menu-sec:focus {
 
 /* !!!!HEADER END!!!! */
 
-/* !!MAIN!! */
+/* !!!!MAIN!!!! */
 
 .first-section {
   background-color: #2e2f42;
@@ -163,11 +170,18 @@ a.hover-menu-sec:focus {
 .fourth-section-li {
   background-color: #ffffff;
 }
-/* !!MAIN END!! */
+/* !!!!MAIN END!!!! */
 
-/* !!!!!!PORTFOLIO!!!!!! */
+/* !!!!!!!!PORTFOLIO!!!!!!!! */
 
-/* MAIN */
+/* !!!!!HEADER!!!!! */
+.header-container {
+  border-bottom: 1px solid #e7e9fc;
+}
+.div-header-container {
+  display: flex;
+}
+/* !!!!!MAIN!!!!! */
 .first-button-portfo {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
