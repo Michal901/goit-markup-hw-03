@@ -1,3 +1,4 @@
+/* !!!!!!!!EACH PAGE!!!!! */
 :root {
   --hover-color: #4d5ae5;
 }
@@ -5,6 +6,13 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
+}
+/* !!!MENU/ADDRESS!!! */
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -18,13 +26,12 @@ body {
 .logo:hover {
   color: var(--hover-color);
 }
-.link {
-  text-decoration: none;
+.logo-span {
+  color: #2e2f42;
 }
-.list {
-  list-style: none;
-}
+/*!!!MENU/ADDRESS END!!!*/
 
+/*!!!MENU!!! */
 .li-header-first {
   font-weight: 500;
   font-size: 16px;
@@ -33,12 +40,35 @@ body {
   text-transform: uppercase;
   color: #2e2f42 !important;
 }
+
 a.hover-menu-fst:hover {
   color: #404bbf;
 }
 a.hover-menu-fst:focus {
   color: #404bbf;
 }
+/* !!!MENU END!!! */
+
+/* FOOTER */
+.footer {
+  background-color: #2e2f42;
+}
+.footer-span {
+  color: #f4f4fd;
+}
+.footer-p {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
+/* FOOTER END */
+
+/* !!!!!!!EACH PAGE END!!!!!!! */
+
+/* !!!!!INDEX!!!!! */
+/* HEADER */
+
+/* !ADDRESS! */
 .address-header {
   font-style: normal;
 }
@@ -53,6 +83,12 @@ a.hover-menu-sec:hover {
 a.hover-menu-sec:focus {
   color: #404bbf;
 }
+/* !ADDRESS END! */
+
+/* !!!!HEADER END!!!! */
+
+/* !!MAIN!! */
+
 .first-section {
   background-color: #2e2f42;
 }
@@ -127,17 +163,11 @@ a.hover-menu-sec:focus {
 .fourth-section-li {
   background-color: #ffffff;
 }
-.footer {
-  background-color: #2e2f42;
-}
-.footer-span {
-  color: #f4f4fd;
-}
-.footer-p {
-  line-height: 1.5;
-  color: #f4f4fd;
-  letter-spacing: 0.02em;
-}
+/* !!MAIN END!! */
+
+/* !!!!!!PORTFOLIO!!!!!! */
+
+/* MAIN */
 .first-button-portfo {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -168,7 +198,4 @@ a.hover-menu-sec:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-.logo-span {
-  color: #2e2f42;
 }
