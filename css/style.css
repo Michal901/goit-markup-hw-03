@@ -181,6 +181,11 @@ a.hover-menu-sec:focus {
 .div-header-container {
   display: flex;
 }
+/* !!!!MENU!!!! */
+.header-portfo-nav {
+  display: flex;
+  align-items: center;
+}
 /* !!!!!MAIN!!!!! */
 .first-button-portfo {
   font-family: "Roboto", sans-serif;
