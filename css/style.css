@@ -40,6 +40,9 @@ body {
   display: flex;
   gap: 40px;
 }
+img {
+  display: block;
+}
 /* !!!MENU/ADDRESS!!! */
 /* !MENU! */
 
@@ -116,8 +119,8 @@ a.hover-menu-sec:focus {
 /* !!!!!!!!EACH PAGE END!!!!! */
 
 /* !!!!!!!!!INDEX!!!!!!!!!! */
-/* !!MAIN!! */
-
+/* !!!!!MAIN!!!!! */
+/* FIRST SECTION */
 .first-section {
   background-color: var(--custom-link-color);
   padding: 188px 0;
@@ -151,6 +154,12 @@ a.hover-menu-sec:focus {
 .first-section-button:focus {
   background-color: var(--button-menu-color);
 }
+/* FIRST SECTION END */
+
+/* SECOND SECTION */
+.second-section {
+  padding: 120px 0;
+}
 .sec-section-h {
   font-weight: 500;
   font-size: 20px;
@@ -164,6 +173,11 @@ a.hover-menu-sec:focus {
   letter-spacing: 0.02em;
   color: var(--custom-menu-color);
 }
+.sec-section-ul {
+}
+/* SECOND SECTION END */
+
+/* THIRD SECTION */
 .third-section-h {
   font-size: 36px;
   line-height: 1.11;
@@ -172,6 +186,9 @@ a.hover-menu-sec:focus {
   text-transform: capitalize;
   color: var(--custom-link-color);
 }
+/* THIRD SECTION END */
+
+/* FOURTH SECTION */
 .fourth-section {
   background-color: var(--sec-back-color);
 }
@@ -199,11 +216,11 @@ a.hover-menu-sec:focus {
 .fourth-section-li {
   background-color: var(--background-color);
 }
-/* !MAIN END! */
+/* FOURTH SECTION END */
+/* !!!!!MAIN END!!!! */
 /* !!!!!!!!!INDEX END!!!!!!!!! */
 
 /* !!!!!!!!PORTFOLIO!!!!!!!! */
-
 .first-button-portfo {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
