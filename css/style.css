@@ -160,7 +160,7 @@ a.hover-menu-sec:focus {
 .second-section {
   padding: 120px 0;
 }
-.sec-section-ul {
+.portfo-section-ul {
   display: flex;
   gap: 24px;
 }
@@ -175,6 +175,10 @@ a.hover-menu-sec:focus {
   color: var(--custom-link-color);
   margin-bottom: 8px;
 }
+.visually-hidden {
+  position: absolute;
+  overflow: hidden;
+}
 .sec-section-p {
   font-size: 16px;
   line-height: 1.5;
@@ -185,6 +189,10 @@ a.hover-menu-sec:focus {
 /* SECOND SECTION END */
 
 /* THIRD SECTION */
+
+.third-section {
+  padding: 120px 0;
+}
 .third-section-h {
   font-size: 36px;
   line-height: 1.11;
@@ -192,7 +200,9 @@ a.hover-menu-sec:focus {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--custom-link-color);
+  margin-bottom: 72px;
 }
+
 /* THIRD SECTION END */
 
 /* FOURTH SECTION */
