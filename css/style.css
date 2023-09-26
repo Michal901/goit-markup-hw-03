@@ -11,7 +11,7 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
+  color: var(--custom-menu-color);
   background-color: var(--background-color);
 }
 .logo {
@@ -212,7 +212,6 @@ a.hover-menu-sec:focus {
   color: var(--custom-link-color);
   margin-bottom: 72px;
 }
-
 /* THIRD SECTION END */
 
 /* FOURTH SECTION */
@@ -226,6 +225,13 @@ a.hover-menu-sec:focus {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--custom-link-color);
+  padding: 120px 0;
+  margin-bottom: 72px;
+}
+.fourth-section-li {
+  background-color: var(--background-color);
+  width: calc((100%-72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .fourth-section-li-h {
   font-weight: 500;
@@ -240,9 +246,7 @@ a.hover-menu-sec:focus {
   letter-spacing: 0.02em;
   color: var(--custom-menu-color);
 }
-.fourth-section-li {
-  background-color: var(--background-color);
-}
+
 /* FOURTH SECTION END */
 /* !!!!!MAIN END!!!! */
 /* !!!!!!!!!INDEX END!!!!!!!!! */
