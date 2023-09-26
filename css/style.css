@@ -217,6 +217,7 @@ a.hover-menu-sec:focus {
 /* FOURTH SECTION */
 .fourth-section {
   background-color: var(--sec-back-color);
+  padding: 120px 0;
 }
 .fourth-section-h {
   font-size: 36px;
@@ -239,12 +240,15 @@ a.hover-menu-sec:focus {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--custom-link-color);
+  margin-bottom: 8px;
+  text-align: center;
 }
 .fourth-section-li-p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--custom-menu-color);
+  text-align: center;
 }
 
 /* FOURTH SECTION END */
