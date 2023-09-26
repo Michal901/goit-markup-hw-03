@@ -1,3 +1,5 @@
+/* !!!!!!!!EACH PAGE!!!!! */
+
 :root {
   --hover-color: #4d5ae5;
   --custom-link-color: #2e2f42;
@@ -5,6 +7,7 @@
   --button-menu-color: #404bbf;
   --sec-back-color: #f4f4fd;
   --custom-menu-color: #434455;
+  --custom-border-color: #e7e9fc;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -19,17 +22,23 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--hover-color);
+  margin-right: 76px;
 }
 .logo:hover {
   color: var(--hover-color);
 }
+.logo-span {
+  color: var(--custom-link-color);
+}
+
 .link {
   text-decoration: none;
 }
 .list {
   list-style: none;
 }
-
+/* !!!MENU/ADDRESS!!! */
+/* !MENU! */
 .li-header-first {
   font-weight: 500;
   font-size: 16px;
@@ -47,6 +56,24 @@ a.hover-menu-fst:hover {
 a.hover-menu-fst:focus {
   color: var(--button-menu-color);
 }
+.header-container {
+  border-bottom: 1px solid var(--custom-border-color);
+}
+.div-bouth-container {
+  display: flex;
+}
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.header-bouth-nav {
+  display: flex;
+  align-items: center;
+}
+/* !MENU END! */
+
+/*!ADDRESS! */
 .address-header {
   font-style: normal;
 }
@@ -61,6 +88,28 @@ a.hover-menu-sec:hover {
 a.hover-menu-sec:focus {
   color: var(--button-menu-color);
 }
+
+/*!ADDRESS END! */
+/*!!!MENU/ADDRESS END!!!*/
+
+/* FOOTER */
+.footer {
+  background-color: var(--custom-link-color);
+}
+.footer-span {
+  color: var(--sec-back-color);
+}
+.footer-p {
+  line-height: 1.5;
+  color: var(--sec-back-color);
+  letter-spacing: 0.02em;
+}
+/* FOOTER END */
+/* !!!!!!!!EACH PAGE END!!!!! */
+
+/* !!!!!!!!!INDEX!!!!!!!!!! */
+/* !!MAIN!! */
+
 .first-section {
   background-color: var(--custom-link-color);
 }
@@ -135,17 +184,11 @@ a.hover-menu-sec:focus {
 .fourth-section-li {
   background-color: var(--background-color);
 }
-.footer {
-  background-color: var(--custom-link-color);
-}
-.footer-span {
-  color: var(--sec-back-color);
-}
-.footer-p {
-  line-height: 1.5;
-  color: var(--sec-back-color);
-  letter-spacing: 0.02em;
-}
+/* !MAIN END! */
+/* !!!!!!!!!INDEX END!!!!!!!!! */
+
+/* !!!!!!!!PORTFOLIO!!!!!!!! */
+
 .first-button-portfo {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -176,7 +219,4 @@ a.hover-menu-sec:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--custom-menu-color);
-}
-.logo-span {
-  color: var(--custom-link-color);
 }
