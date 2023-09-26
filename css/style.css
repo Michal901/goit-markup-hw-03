@@ -120,6 +120,7 @@ a.hover-menu-sec:focus {
 
 .first-section {
   background-color: var(--custom-link-color);
+  padding: 188px 0;
 }
 .h-one {
   font-size: 56px;
@@ -127,6 +128,7 @@ a.hover-menu-sec:focus {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--background-color);
+  max-width: 496px;
 }
 .first-section-button {
   background-color: var(--hover-color);
@@ -137,6 +139,11 @@ a.hover-menu-sec:focus {
   letter-spacing: 0.04em;
   color: var(--background-color);
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 .first-section-button:hover {
   background-color: var(--button-menu-color);
