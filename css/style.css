@@ -33,6 +33,7 @@ body {
 
 .link {
   text-decoration: none;
+  padding: 24px 0;
 }
 .list {
   list-style: none;
