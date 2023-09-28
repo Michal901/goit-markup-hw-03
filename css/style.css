@@ -251,9 +251,18 @@ a.hover-menu-sec:focus {
 /* !!!!!!!!!INDEX END!!!!!!!!! */
 
 /* !!!!!!!!PORTFOLIO!!!!!!!! */
+/* !!!!MAIN!!!! */
+/* !FIRST SECTION! */
 .portfo-main-section {
   padding: 96px 0 120px 0;
 }
+.portfo-main-ul-frst {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
 .first-button-portfo {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -272,6 +281,16 @@ a.hover-menu-sec:focus {
   color: var(--background-color);
   background-color: var(--button-menu-color);
 }
+/* !FIRST SECTION END! */
+
+/* !SECOND SECTION! */
+.portfo-main-ul-sec {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
 .portfo-sec-list-h {
   font-weight: 500;
   font-size: 20px;
