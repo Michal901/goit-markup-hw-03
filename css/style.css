@@ -338,12 +338,12 @@ ul.portfo-main-ul-frst {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--custom-link-color);
+  margin-bottom: 8px;
 }
 .portfo-sec-list-p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--custom-menu-color);
-  margin-bottom: 8px;
 }
 /* !SECOND UNORDERED LIST END! */
