@@ -104,6 +104,11 @@ a.hover-menu-fst:focus {
 /*!ADDRESS! */
 .address-header {
   font-style: normal;
+  padding: 22px 0 0;
+  margin-left: 30px;
+}
+.address-sec-ul {
+  padding-left: 148px;
 }
 .hover-menu-sec {
   line-height: 1.5;
