@@ -171,7 +171,7 @@ a.hover-menu-sec:focus {
   gap: 24px;
 }
 .sec-section-li {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .sec-section-h {
   font-weight: 500;
