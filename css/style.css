@@ -264,22 +264,27 @@ a.hover-menu-sec:focus {
 }
 
 .first-button-portfo {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  padding: 12px 24px;
   letter-spacing: 0.04em;
+  font-family: "Roboto", sans-serif;
   color: var(--hover-color);
   background-color: var(--sec-back-color);
   cursor: pointer;
+  border: 1px solid var(--custom-border-color);
+  border-radius: 4px;
 }
 .first-button-portfo:hover {
   color: var(--background-color);
   background-color: var(--button-menu-color);
+  border: 1px solid transparent;
 }
 .first-button-portfo:focus {
   color: var(--background-color);
   background-color: var(--button-menu-color);
+  border: 1px solid transparent;
 }
 /* !FIRST SECTION END! */
 
