@@ -262,7 +262,7 @@ a.hover-menu-sec:focus {
 .portfo-main-section {
   padding: 96px 0 120px 0;
 }
-.portfo-main-ul-frst {
+ul.portfo-main-ul-frst {
   justify-content: center;
   margin-bottom: 72px;
   display: flex;
