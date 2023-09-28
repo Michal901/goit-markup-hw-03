@@ -257,10 +257,10 @@ a.hover-menu-sec:focus {
   padding: 96px 0 120px 0;
 }
 .portfo-main-ul-frst {
-  display: flex;
   justify-content: center;
-  gap: 24px;
   margin-bottom: 72px;
+  display: flex;
+  gap: 24px;
 }
 
 .first-button-portfo {
