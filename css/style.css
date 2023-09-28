@@ -252,7 +252,7 @@ a.hover-menu-sec:focus {
 
 /* !!!!!!!!PORTFOLIO!!!!!!!! */
 /* !!!!MAIN!!!! */
-/* !FIRST SECTION! */
+/* !FIRST UNORDERED LIST! */
 .portfo-main-section {
   padding: 96px 0 120px 0;
 }
@@ -286,16 +286,24 @@ a.hover-menu-sec:focus {
   background-color: var(--button-menu-color);
   border: 1px solid transparent;
 }
-/* !FIRST SECTION END! */
+/* !FIRST UNORDERED LIST END! */
 
-/* !SECOND SECTION! */
+/* !SECOND UNORDERED LIST! */
 .portfo-main-ul-sec {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
-
+.portfo-sec-li {
+  width: calc((100%-48px) / 3);
+}
+.link-container {
+  padding: 32px 16px;
+  border: 1px solid var(--custom-border-color);
+  border-top: none;
+  border-bottom: 8px;
+}
 .portfo-sec-list-h {
   font-weight: 500;
   font-size: 20px;
@@ -309,3 +317,4 @@ a.hover-menu-sec:focus {
   letter-spacing: 0.02em;
   color: var(--custom-menu-color);
 }
+/* !SECOND UNORDERED LIST END! */
