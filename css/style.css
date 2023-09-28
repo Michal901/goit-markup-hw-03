@@ -106,6 +106,11 @@ a.hover-menu-sec:focus {
 /* FOOTER */
 .footer {
   background-color: var(--custom-link-color);
+  padding: 100px 0;
+}
+.footer-a {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-span {
   color: var(--sec-back-color);
@@ -114,6 +119,7 @@ a.hover-menu-sec:focus {
   line-height: 1.5;
   color: var(--sec-back-color);
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 /* FOOTER END */
 /* !!!!!!!!EACH PAGE END!!!!! */
