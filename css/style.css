@@ -86,7 +86,6 @@ a.hover-menu-fst:focus {
 }
 .header-container {
   border-bottom: 1px solid var(--custom-border-color);
-  letter-spacing: 0.32px;
 }
 .div-bouth-container {
   display: flex;
